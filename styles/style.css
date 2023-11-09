@@ -197,6 +197,7 @@ section div{
 
 .about section p{
     margin: 12px;
+    margin-top: 25px;
     width: 60%;
 }
 
@@ -204,9 +205,51 @@ section div{
     width: 30%;
 }
 
+.about section:nth-of-type(3) p{
+    width: 80%;
+    margin-top: 10px;
+}
+
+
 .about section:nth-of-type(3){
     margin-bottom: 50px;
 }
+
+.home section{
+    border-radius: 40px;
+    padding: 20px;
+    width: 80%;
+    background-color: rgb(211, 191, 42);
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.home section img{
+    width: 100px;
+    height: 100px;
+}
+
+.rij1{
+    flex-direction: row;
+    justify-content: center;
+
+}
+.rij2{
+    flex-direction: row;
+    justify-content: center;
+}
+
+.rij3{
+    justify-content: center;
+}
+
+.rij2 h2{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin: 0;
+    font-size: 13px;
+}  
 
 form{
     display: flex;
