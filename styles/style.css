@@ -50,6 +50,7 @@ nav{
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 2px solid black;
 }
 
 nav ul{
@@ -173,17 +174,17 @@ section div{
 
 .contact section{
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     background-color: rgb(211, 191, 42);
-    border-radius: 5px;
-    width: 90%;
+    border-radius: 30px;
+    width: 95%;
 }
 
 
 .about section{
     align-items: center;
     background-color: rgb(211, 191, 42);
-    border-radius: 5px;
+    border-radius: 30px;
     margin-top: 10px;
     width: 95%;
     padding-bottom: 10px;
@@ -216,7 +217,7 @@ section div{
 }
 
 .home section{
-    border-radius: 40px;
+    border-radius: 30px;
     padding: 20px;
     width: 80%;
     background-color: rgb(211, 191, 42);
@@ -251,12 +252,39 @@ section div{
     font-size: 13px;
 }  
 
+.home section:nth-of-type(2){
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.home section:nth-of-type(2) p{
+    width: 90px;
+}
+
+.info-div{
+    flex-direction: column;
+}
+
+.insturen-div{
+    flex-direction: column;
+}
+
+.contact-div{
+    flex-direction: column;
+}
+
+.home section:nth-of-type(2) img{
+    width: 80px;
+    height: 40px;
+    justify-content: left;
+}
+
 form{
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: rgb(211, 191, 42);
-    border-radius: 5px;
+    border-radius: 30px;
     width: 90%;
     margin-left: 20px;
     padding-bottom: 10px;
