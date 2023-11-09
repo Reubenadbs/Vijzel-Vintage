@@ -261,15 +261,15 @@ section div{
     width: 90px;
 }
 
-.info-div{
+.infodiv{
     flex-direction: column;
 }
 
-.insturen-div{
+.insturendiv{
     flex-direction: column;
 }
 
-.contact-div{
+.contactdiv{
     flex-direction: column;
 }
 
