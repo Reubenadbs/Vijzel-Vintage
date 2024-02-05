@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: rgb(151, 92, 41);
+    background-color: rgb(106, 106, 112);
     font-family: fell;
     margin: 0;
     padding: 0;
@@ -59,7 +59,7 @@ nav ul{
     justify-content: space-evenly;
     padding: 0;
     margin: 0;
-    background-color: rgb(84, 59, 38);
+    background-color: rgb(178, 124, 80);
     height: 40px;
 }
 
@@ -257,8 +257,13 @@ section div{
     margin-bottom: 30px;
 }
 
+.home section:nth-of-type(2) div{
+    justify-content: center;
+}
+
 .home section:nth-of-type(2) p{
-    width: 90px;
+    width: 110px;
+    font-size: 10px;
 }
 
 .infodiv{
@@ -267,6 +272,7 @@ section div{
 
 .insturendiv{
     flex-direction: column;
+    margin-left: 1px;
 }
 
 .contactdiv{
@@ -274,7 +280,7 @@ section div{
 }
 
 .home section:nth-of-type(2) img{
-    width: 80px;
+    width: 100px;
     height: 40px;
     justify-content: left;
 }
